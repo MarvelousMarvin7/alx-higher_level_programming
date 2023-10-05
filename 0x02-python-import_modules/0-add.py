@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Imports function add from add_0.py"""
+"""Imports function add"""
 
 
 if __name__ == "__main__":
