@@ -14,7 +14,7 @@ def roman_to_int(roman_string):
         'L': 50
         'C': 100
         'D': 500
-        'M': 100
+        'M': 1000
     }
     total = 0
     prev_value = 0
