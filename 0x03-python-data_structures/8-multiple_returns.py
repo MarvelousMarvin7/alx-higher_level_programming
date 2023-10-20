@@ -3,9 +3,11 @@
 
 
 def multiple_returns(sentence):
+    tupl = ()
     length = len(sentence)
-    firstchar = sentence[0]
     if length == 0:
-        return (0, None)
+        tupl = 0, "None"
     else:
-        return (length, firstchar)
+        tupl = length, sentence[0]
+
+    return tupl
