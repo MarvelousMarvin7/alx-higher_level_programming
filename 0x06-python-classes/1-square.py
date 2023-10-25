@@ -5,6 +5,6 @@
 class Square:
     """Define a square based on 0-square"""
 
-    def __init__(mine, size):
+    def __init__(self, size):
         """make size of square private"""
-        mine.__size == size
+        self.__size == size
