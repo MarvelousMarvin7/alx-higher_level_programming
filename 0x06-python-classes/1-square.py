@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Square"""
+"""Square module"""
 
 
 class Square:
-    """Define a square based on 0-square"""
+    """Define a square by size"""
 
     def __init__(self, size):
-        """make size of square private"""
         self.__size == size
