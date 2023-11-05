@@ -20,23 +20,23 @@ def text_indentation(text):
     if not isinstance(text, str):
         raise TypeError('text must be a string')
 
-    l = " "
+    last = " "
     string = ""
 
     if text is "":
         print(string, end='')
 
     for s in text:
-        if s is l and s is ' ':
-            l = s
+        if s is last and s is ' ':
+            last = s
             continue
-        if (l is '.' or l is '?' or l is ':') and s is ' ':
-            l = s
+        if (last is '.' or last is '?' or last is ':') and s is ' ':
+            last = s
             continue
         if s is '.' or s is '?' or s is ':':
             string += s + '\n' + '\n'
-            l = s
+            last = s
         else:
             string += s
-            l = s
+            last = s
     print(string.rstrip(' '), end='')
