@@ -23,15 +23,17 @@ def matrix_divided(matrix, div):
     prompt_2 = 'Each row of the matrix must have the same size'
     prompt_3 = 'div must be a number'
     length = len(matrix)
-    
+
     if not matrix or matrix is [[]] or matrix is None:
         raise TypeError(prompt)
     if length == 0:
         raise TypeError(prompt)
     if not matrix or matrix is [[]] or matrix is None:
         raise TypeError(prompt)
-    if not isinstance(div, (int, float, None)):
-        raise TypeError(prompt3)
+    if not isinstance(div, (int, float)):
+        raise TypeError(prompt_3)
+    if isinstance(div, bool) or div is None:
+        raise TypeError(prompt_3)
     if div == 0:
         raise ZeroDivisionError('division by zero')
     for i in range(length):
@@ -39,7 +41,6 @@ def matrix_divided(matrix, div):
             raise TypeError(prompt_2)
 
     # new matrix
-
     new_matrix = []
     for i in range(length):
         new_matrix.append([])
