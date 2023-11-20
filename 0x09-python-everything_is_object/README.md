@@ -1,1 +1,0 @@
-<h4>Everything is Object</h4>

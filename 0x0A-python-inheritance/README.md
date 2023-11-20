@@ -1,1 +1,0 @@
-<h4>Introduction to python inheritance</h4>
