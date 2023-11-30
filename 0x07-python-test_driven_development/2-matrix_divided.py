@@ -21,7 +21,7 @@ def matrix_divided(matrix, div):
 
     new = []
 
-    if not matrix or matrix == [[]] or matrix == None:
+    if not matrix or matrix == [[]] or matrix is None:
         raise prompt0
     if not isinstance(div, (int, float)):
         raise prompt2
