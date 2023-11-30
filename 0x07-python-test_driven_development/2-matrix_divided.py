@@ -17,7 +17,7 @@ def matrix_divided(matrix, div):
     )
     prompt1 = TypeError("Each row of the matrix must have the same size")
     prompt2 = TypeError("div must be a number")
-    prompt3 = ZeroDivisionError("division by Error")
+    prompt3 = ZeroDivisionError("division by zero")
 
     new = []
 
