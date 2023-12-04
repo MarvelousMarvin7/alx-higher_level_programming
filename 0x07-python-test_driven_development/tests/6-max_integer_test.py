@@ -22,7 +22,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([1, 3, 4, 2]), 4)
         self.assertEqual(max_integer([1, 2, 5, 3, 4]), 5)
         self.assertEqual(max_integer([4, 3, 2, 1]), 4)
-	# only one element
+        # only one element
         self.assertEqual(max_integer([1]), 1)
 
     def test_neg_int(self):
