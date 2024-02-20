@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Is same class"""
+"""class of an object verification"""
 
 
 def is_same_class(obj, a_class):
-    """Check if an oject is of a class
+    """Check if an oject is of an exact class
 
     Args:
     obj: object to be checked
