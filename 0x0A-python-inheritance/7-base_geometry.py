@@ -6,7 +6,7 @@ class BaseGeometry():
     """A geometry module for performeing geometrical calculations"""
 
     def area(self):
-        raise Exception("area is not implemented")
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """Check if integer
