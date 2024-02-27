@@ -2,7 +2,7 @@
 """Base class"""
 
 
-class Base():
+class Base:
     """represents the base of all other classes
 
     Attributes:
