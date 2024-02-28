@@ -7,7 +7,7 @@ class Base:
 
     Attributes:
     nb_objects - a private attribute that represent the number of base objects
-    """   
+    """
     __nb_objects = 0
 
     def __init__(self, id=None):
@@ -20,4 +20,4 @@ class Base:
             self.id = id
         else:
             Base.__nb_objects += 1
-            self.id = Base.__nb_objects    
+            self.id = Base.__nb_objects
