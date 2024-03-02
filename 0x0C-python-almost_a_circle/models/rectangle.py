@@ -113,7 +113,7 @@ class Rectangle(Base):
                     self.__x = arg
                 elif a == 4:
                     self.__y = arg
-                    a += 1
+                a += 1
 
         elif kwargs and len(kwargs) != 0:
             for k, v in kwargs.items():
