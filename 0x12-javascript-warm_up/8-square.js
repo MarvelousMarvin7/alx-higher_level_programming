@@ -9,7 +9,7 @@ if (isNaN(x)) {
   let i = 0;
 
   while (i < x) {
-    console.log('X' .repeat(x));
+    console.log('X'.repeat(x));
     i++;
   }
 }
