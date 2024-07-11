@@ -4,3 +4,10 @@
 venv
 *.sql
 __pycache__
+*main.py
+*.json
+*.txt
+*main.c
+*#
+*.pyc
+*2.py
