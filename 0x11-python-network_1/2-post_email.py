@@ -4,13 +4,12 @@
  (decoded in utf-8)
 """
 
-
 if __name__ == "__main__":
     import sys
     import urllib.request
     import urllib.parse
 
-    value = {'email' : sys.argv[2]}
+    value = {'email': sys.argv[2]}
     data = urllib.parse.urlencode(value)
     data = data.encode('utf-8')
     reqst = urllib.request.Request(sys.argv[1], data)
