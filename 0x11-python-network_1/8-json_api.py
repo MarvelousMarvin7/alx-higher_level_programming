@@ -13,7 +13,7 @@ if __name__ == '__main__':
         arg = ""
     payload = {'q': arg}
     url = "http://0.0.0.0:5000/search_user"
-    rquest = requests.post(post, data=payload)
+    rquest = requests.post(url, data=payload)
     try:
         rquest.raise_for_status()
         json = rquest.json()
